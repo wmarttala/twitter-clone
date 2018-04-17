@@ -1,0 +1,161 @@
+body {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background: #E6ECF0;
+  }
+  
+  .white-background {
+    background: #fff;
+  }
+  
+  .float-left {
+    float: left;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 50px;
+    border: 1px solid #bbb;
+    box-shadow: 0 1px 0 #ccc;
+    z-index: 1;
+  }
+  
+  .container {
+    width: 100vw;
+    margin: 10px 0;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .left {
+    width: 290px;
+    float: left;
+  }
+  
+  .middle {
+    width: 590px;
+    height: 300px;
+    float: left;
+    margin: 0 10px;
+  }
+  
+  .right {
+    width: 290px;
+    height: 200px;
+    float: left;
+  }
+  
+  .profile {
+    box-shadow: 0 2px 5px #ccc;
+    height: 200px;
+    margin-bottom: 5px;
+  }
+  
+  .profile-bg {
+      height: 50%;
+      width: 100%;
+      display: block!important;
+      background: #1DA1F2;
+  }
+  
+  .avatar-container {
+    position: absolute;
+    margin: 5px;
+    margin-top: -35px;
+  }
+  
+  .avatar {
+    height: 72px;
+    background: #1DA1F2;
+    border: 2px solid #fff;
+    border-radius: 50%;
+  }
+  
+  .trends {
+    box-shadow: 0 2px 5px #ccc;
+    height: 300px;
+  }
+  
+  .write-tweet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E8F5FD;
+    width: 100%;
+    height: 75px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  #addTweet {
+    width: 70%;
+    height: 32px;
+    border-radius: 5px;
+    border: 1px solid #C6E7FB;
+    padding-left: 10px;
+  }
+  
+  #addTweet::placeholder {
+    color: #66A1F4;
+  }
+  
+  .user-icon-default {
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .tweet {
+    border-bottom: 1px solid #eee;
+    min-height: 75px;
+    padding: 9px 12px;
+  }
+  
+  .content {
+    margin-left: 58px;
+  }
+  
+  .tweet-icon {
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+    margin-top: 3px;
+    margin-left: -58px;
+    position: absolute;
+  }
+  
+  .userTag {
+    color: #657786;
+    font-weight: lighter;
+  }
+  
+  .message {
+    margin-top: 5px;
+  }
+  
+  span a {
+    text-decoration: none;
+    color: #1DA1F4;
+  }
+  
+  .tweet-image {
+    margin-top: 10px;
+  }
+  
+  .follow-box {
+    box-shadow: 0 2px 5px #ccc;
+    height: 300px;
+    margin-bottom: 5px;
+  }
+  
+  .tags {
+    box-shadow: 0 2px 5px #ccc;
+    height: 150px;
+  }
